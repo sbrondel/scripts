@@ -10,7 +10,4 @@ Pre-Requisites:
 2) Register an AAD Application, and fill in your Tenant, ApplicationID, and ClientSecret variables.  An example of setting up an AAD Application is at https://learn.microsoft.com/en-us/graph/tutorials/powershell?tabs=aad&tutorial-step=1
 3) You are highly encourged to use PowerShell 7.x or higher, and not the built-in Windows PowerShell, for massive speed improvements.  Testing against an environment with over 5,000 inactive accounts showed a 5x speed increase (63 seconds in PowerShell 7.3.0 vs 299 seconds with Windows PowerShell 5.1).
 
-Here's what it looks like in action!
-<video width="720" height="480" controls>
-  <source src="https://cdn.githubraw.com/sbrondel/scripts/main/media/Get-InactiveUsers.mp4" type="video/mp4">
-</video>
+You can see what it looks like in action at https://cdn.githubraw.com/sbrondel/scripts/main/media/Get-InactiveUsers.mp4 .
