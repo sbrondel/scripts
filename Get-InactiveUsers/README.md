@@ -12,5 +12,5 @@ Pre-Requisites:
 
 Here's what it looks like in action!
 <video width="720" height="480" controls>
-  <source src="media/Get-InactiveUsers.mp4" type="video/mp4">
+  <source src="https://cdn.githubraw.com/sbrondel/scripts/main/media/Get-InactiveUsers.mp4" type="video/mp4">
 </video>
