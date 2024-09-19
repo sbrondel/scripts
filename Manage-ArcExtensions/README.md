@@ -8,5 +8,5 @@ Running the script without parameters is the same as running with the -CheckOnly
 Pre-Requisites:
 1) Install-Module Az.ConnectedMachine
 2) Install the Az cli package.  This can be downloaded from https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli or it can be installed via WinGet: winget install -e --id Microsoft.AzureCLI
-3) Update the $resourceGroup variable below to the name of the Resource Group containing the systems you'd like to assess.  The script assumes you're already logged in to Azure and have set the subscription to be managed when you logged in.
+3) Update the $resourceGroup variable to the name of the Resource Group containing the systems you'd like to assess.  The script assumes you're already logged in to Azure and have set the subscription to be managed when you logged in.
 
