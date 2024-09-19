@@ -3,7 +3,7 @@ This script will iterate through all Azure Arc systems in a given Resource Group
 
 The script needs the Az command-line-interface installed, as well as the Az.ConnectedMachine module.  It assumes that you've already logged in to both Az and Connect-AzAccount and have set the target subscription appropriately.
 
-Azure AD accounts are filtered on UserType = Member.
+Running the script without parameters is the same as running with the -CheckOnly option - you'll receive a per-machine list of all extensions where an upgrade is available.  Running it with the -Upgrade parameter will initiate PowerShell jobs to update each extension.
 
 Pre-Requisites:
 1) Install-Module Az.ConnectedMachine
